@@ -1,0 +1,66 @@
+.app-navbar {
+  backdrop-filter: blur(14px);
+}
+
+.brand-mark {
+  letter-spacing: 0.04em;
+}
+
+.nav-pill {
+  border-radius: 999px;
+  padding: 0.55rem 0.95rem;
+  color: #334155;
+}
+
+.nav-pill.active {
+  background: #0f172a;
+  color: #fff !important;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fbff 52%, #eef6ff 100%);
+}
+
+.section-kicker {
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #0f766e;
+}
+
+.metric-card {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 1rem 2.5rem rgba(15, 23, 42, 0.08);
+}
+
+.resource-card {
+  border-radius: 1.5rem;
+}
+
+.resource-table-wrap .table {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.resource-table-wrap thead th {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resource-table-wrap td,
+.resource-table-wrap th {
+  vertical-align: top;
+}
+
+.modal-backdrop {
+  z-index: 1040;
+}
+
+.modal {
+  z-index: 1050;
+}
+
+.font-monospace {
+  font-size: 0.85rem;
+}
